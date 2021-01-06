@@ -77,15 +77,7 @@ p{
     border-radius: 6px;
 }
 
-.chat-button{
-    font-family: 'Roboto', sans-serif;
-    color: white;
-    text-decoration: none;
-    display: inline;
-    padding: 18px 56px;
-    background: linear-gradient(0deg, #FF8063 -28.33%, #F46060 95.83%);
-    border-radius: 6px;
-}
+
 
 .project-area{
     height: 850px;
@@ -112,23 +104,24 @@ p{
       margin: 0 5%;
   }
 
-  .contact-area{
+ .contact-area{
     height: 850px;
     padding-top: 1px;
-    text-align: right;
+    /* text-align: right; */
   }
 
   .contact-area div{
+      width: 50%;
+      height: 30%;
       background-image: url(shapes/Group_33094_1.png);
       background-size: 100% 100%;
       margin: 0% auto;
       margin-top: 150px;
-      width: 50%;
-      height: 30%;
       padding: 1px;
   }
-
+ 
   .contact-area p{
+      display: inline-block;
       font-size: 64px;
       font-family: 'Bebas Neue', cursive; 
       color: white;
@@ -136,3 +129,16 @@ p{
       margin-top: 9%;
       margin-left: 8%;
   }
+
+  .chat-button{
+    float: right;
+    margin-top: 10%;
+    margin-right: 10%;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-decoration: none;
+    display: inline;
+    padding: 24px 36px;
+    background: linear-gradient(0deg, #FF8063 -28.33%, #F46060 95.83%);
+    border-radius: 6px;
+} 
