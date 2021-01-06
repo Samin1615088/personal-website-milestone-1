@@ -173,7 +173,7 @@ p{
     height: 40px;
     width: 40px;
     position: relative;
-    left: -43%; /* or right 50% */
+    left: -42%; /* or right 50% */
     text-align: left;
     margin-right: 2%;
   }
