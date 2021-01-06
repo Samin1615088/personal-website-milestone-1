@@ -112,13 +112,13 @@ p{
       margin: 0 5%;
   }
 
- .work-area{
+ footer{
     height: 850px;
     padding-top: 1px;
     text-align: center;
   }
 
-  .work-area div{
+  .background-image{
       width: 50%;
       height: 30%;
       background-image: url(shapes/Group_33094_1.png);
@@ -128,7 +128,7 @@ p{
       padding: 1px;
   }
  
-  .work-area p{
+  footer p{
       display: inline-block;
       font-size: 64px;
       font-family: 'Bebas Neue', cursive; 
@@ -161,3 +161,28 @@ p{
     line-height: 42px;
     color: #363958;
 }
+
+.column-icon {
+    /* float: left;
+    width: 40px;
+    height: 40px;
+    margin-left: 25%;
+    padding: 1%; */
+
+    float: right;
+    height: 40px;
+    width: 40px;
+    position: relative;
+    left: -43%; /* or right 50% */
+    text-align: left;
+    margin-right: 2%;
+  }
+
+
+  .row-icon{
+      margin: 0 auto;
+  }
+  .column-icon > .child {
+    position: relative;
+    left: 50%;
+  }
